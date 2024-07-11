@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.con4:hover{
+    background: linear-gradient(180deg, #B899F2 0%, #4D3A70 100%);
+}
+
+.linear-g{
+    background: linear-gradient(92.34deg, rgba(40, 149, 238, 0.589) -8.3%, #F3ACE5 69.6%, rgba(92, 39, 192, 0.6) 94.64%, #432678 126.54%);
+
+}

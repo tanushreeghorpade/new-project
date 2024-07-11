@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.gradiant{
+background: radial-gradient(white 0%,#6e44ff 45%,#542ee0 70%, #5e3dd6 100%);
+}
+
+/* @keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(100%)
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideOut {
+  0% { 
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-100%);
+  }
+}
+
+.card-slide-in {
+  animation: slideIn 1s forwards;
+}
+
+.card-slide-out {
+  animation: slideOut 1s forwards;
+} */
+
+
+@keyframes slideInFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateZ(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+
+@keyframes slideOutToTop {
+  0% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateZ(-100%);
+  }
+}
+
+/* @media screen and (max-width : 430px) {
+  @keyframes slideInFromBottom {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideOutToTop {
+    0% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+  }
+}
+
+@media screen and (max-width : 768px) {
+  @keyframes slideInFromBottom {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideOutToTop {
+    0% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+  }
+} */
+
+.card-slide-in-from-bottom {
+  animation: slideInFromBottom 1s forwards;
+}
+
+.card-slide-out-to-top {
+  animation: slideOutToTop 1s forwards;
+}
+
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  
+  .menu-icon-line {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 4px 0;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .open {
+    transform: rotate(-45deg);
+    display: none;
+  }
+  .open2 {
+    transform: rotate(-135deg);
+    position: relative;
+    top: 11px;
+  }
+  .open3 {
+    transform: rotate(-45deg);
+  }
+  
+
+  
+  .menu .h3tag {
+    margin: 0px 0;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .h3tag:hover {
+    transform: scale(1.2);
+  }
+
+  .color-change{
+color: #3A3562;
+  }
+  
+
+
+  @keyframes slide {
+    0% {
+      transform: translateX(0%);
+    }
+    50% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .animate-slide {
+    animation: slide 20s linear infinite;
+  }
+  
+
+  .con1{
+    background-color: #F4DBEF;
+  }
+  .con2{
+    background-color: #CFEEF8;
+  }
+  .con3{
+    background-color: #DAFAE5;
+  }
+  .con4{
+    background-color: #FFF4EA;
+  }
+
+
+  /* Container hover effect */
+.con1:hover .hover-item  {
+  /* Adjust properties of child elements when container is hovered */
+  width: 18rem;
+  font-size: 17px;
+  top: 1rem;
+  opacity: 1;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.con1:hover .how-item{
+  top: 26px;
+}
+.con2:hover .hover-item  {
+  /* Adjust properties of child elements when container is hovered */
+  width: 19rem;
+  font-size: 17px;
+  top: 1rem;
+  opacity: 1;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.con2:hover .how-item{
+  top: 26px;
+}
+.con3:hover .hover-item  {
+  /* Adjust properties of child elements when container is hovered */
+  width: 20rem;
+  font-size: 17px;
+  top: 1rem;
+  opacity: 1;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.con3:hover .how-item{
+  top: 21px;
+}
+.con4:hover .hover-item  {
+  /* Adjust properties of child elements when container is hovered */
+  width: 19rem;
+  font-size: 17px;
+  top: 1rem;
+  opacity: 1;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.con4:hover .how-item{
+  top: 21px;
+}
